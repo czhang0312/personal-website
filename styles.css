@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pic {
+    max-width: 10%;  
+    height: auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: black;
+    height: 80px;
+    display: block;
+}
+
+.inner_header {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.logo_container {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+}
+
+h2 {
+    border-bottom: 2px solid;
+}
