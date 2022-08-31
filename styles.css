@@ -1,33 +1,35 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.pic {
-    max-width: 10%;  
-    height: auto;
+.pic {  
     padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
 
 .header {
-    background-color: black;
+    background-color: grey;
     height: 80px;
     display: block;
 }
 
-.inner_header {
+.inner-header {
     width: 1000px;
     height: 100%;
     margin: 0 auto;
 }
 
-.logo_container {
+.logo-container {
     height: 100%;
     display: table;
     float: left;
 }
 
-.logo_container h1{
+.logo-container h1{
     color: white;
     height: 100%;
     display: table-cell;
@@ -52,6 +54,26 @@
     color: white;
 }
 
+.navigation a:hover {
+    background-color: darkgrey;
+}
+
+section {
+    padding: 30px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
 h2 {
+    font-size: 20pt;
     border-bottom: 2px solid;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+p {
+    font-size: 15pt;
 }
